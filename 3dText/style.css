@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4abaa2;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+:root {
+    --text-shadow-color: #000;
+    --text-color1: #0215e0;
+}
+
+.container .ism {
+    position: relative;
+    top: 1000px;
+    left: 600px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.input-box {
+    position: relative;
+    left: 0px;
+}
+
+.input-box h2 {
+    position: absolute;
+    top: 530px;
+    left: 550px;
+    font-size: 10rem;
+    color: #3d3d3d;
+    letter-spacing: 10px;
+    text-shadow: -1px 1px var(--text-shadow-color),
+        -2px 2px var(--text-shadow-color),
+        -3px 3px var(--text-shadow-color),
+        -4px 4px var(--text-shadow-color),
+        -5px 5px var(--text-shadow-color),
+        -6px 6px var(--text-shadow-color),
+        -8px 8px var(--text-shadow-color),
+        -9px 9px var(--text-shadow-color),
+        -10px 10px var(--text-shadow-color),
+        -11px 11px var(--text-shadow-color),
+        -13px 13px var(--text-shadow-color),
+        -7px 7px var(--text-shadow-color),
+        -12px 12px var(--text-shadow-color);
+    text-transform: capitalize;
+}
+
+
+.input-box .input {
+    position: absolute;
+    top: 200px;
+    left: 525px;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 12px 12px;
+    border: none;
+}
+
+.input-box .btn {
+    position: absolute;
+    top: 200px;
+    left: 950px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.input-box .btn:hover {
+    transition: 1s ease;
+    box-shadow: inset 0px -60px #02dce0;
+    color: #fff;
+}
+
+.input-box p {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    font-size: 25px;
+    color: aliceblue;
+    width: 500px;
+}
+
+.input-box .btn1 {
+    position: absolute;
+    top: 200px;
+    left: 1120px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 1s ease;
+    border: none;
+}
+
+.container {
+    height: 2000px;
+}
+
+.ism {
+    width: 550px;
+    background-color: #0af7f7;
+    color: #fff;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
